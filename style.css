@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'MyUrduFont';
+    src: url('./fonts/Jameel\ Noori\ Nastaleeq\ Regular.ttf') format('truetype');
+  }  
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 50px;
+}
+#day{
+    font-family: 'MyUrduFont', serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(16px, 5vw, 48px);;
+    font-weight: bold;
+    /* font-style:italic;  */
+    /* line-height: 2; */
+    /* width: 50vw; */
+    /* height: 90px; */
+    padding: 10px;
+    /* margin: 10px; */
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 1);
+    background: linear-gradient(to right, red, blue);
+    background: radial-gradient(circle, yellow, green);
+    cursor: crosshair;
+}
+#time{
+    font-family: 'MyUrduFont', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    /* flex-wrap: wrap; */
+    /* font-size: 40px; */
+    font-weight: bold;
+    font-size: clamp(16px, 5vw, 48px);
+    /* font-style:italic;  */
+    /* line-height: 2; */
+    /* width: 100vw; */
+    /* height: 90px; */
+    padding: 10px;
+    /* margin: 10px; */
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 1);
+    background: linear-gradient(to right, red, blue);
+    background: radial-gradient(circle, yellow, green);
+    cursor: crosshair;
+}
+
+#numbersInUrdu{
+    /* font-family: 'Noto Naskh Arabic', 'Noto Sans Arabic', 'Noto Nastaliq Urdu', serif; */
+    font-family: 'MyUrduFont', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 90px; */
+    /* font-size: clamp(min, preferred, max); */
+    font-size: clamp(16px, 7vw, 190px);
+    font-weight: bold;
+    /* font-style:italic;  */
+    /* line-height: 2; */
+    width: 90vw;
+    /* height: 190px; */
+    /* padding: auto; */
+    margin: 10px;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 1);
+    background: linear-gradient(to right, red, blue);
+    background: radial-gradient(circle, yellow, green);
+    cursor: crosshair;
+    /* padding-top: 190px; */
+    /* padding-bottom: 20px; */
+    /* height: 2px; */
+    /* line-height: 290px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
