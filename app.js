@@ -96,7 +96,7 @@ function dateTime(){
 
     let day = currentDateTime.getDay();
 
-    dayDiv.innerText = 'آج ' + urduDays[day]  + 'کا دن ہے  ' ;
+    dayDiv.innerText = 'آج ' + urduDays[day]  + ' کا دن ہے      ' ;
 
     // timeDiv.innerText = 'اس وقت ' + ghante + ' بج کر ' + minutes + ' منٹ ہوئے ہیں';
     // console.log(currentDateTime.getHours);
